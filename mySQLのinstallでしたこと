@@ -1,0 +1,376 @@
+
+
+
+
+labkubota@labkubota-432:~$ sudo apt install mysql-server mysql-client
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.15.0-66 linux-headers-4.15.0-66-generic
+  linux-image-4.15.0-66-generic linux-modules-4.15.0-66-generic
+  linux-modules-extra-4.15.0-66-generic
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libaio1 libevent-core-2.0-5 libhtml-template-perl mysql-client-5.7
+  mysql-client-core-5.7 mysql-server-5.7 mysql-server-core-5.7
+Suggested packages:
+  libipc-sharedcache-perl mailx tinyca
+The following NEW packages will be installed:
+  libaio1 libevent-core-2.0-5 libhtml-template-perl mysql-client
+  mysql-client-5.7 mysql-client-core-5.7 mysql-server mysql-server-5.7
+  mysql-server-core-5.7
+0 upgraded, 9 newly installed, 0 to remove and 282 not upgraded.
+Need to get 17.7 MB of archives.
+After this operation, 155 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu xenial/main amd64 libaio1 amd64 0.3.110-2 [6,356 B]
+Get:2 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-client-core-5.7 amd64 5.7.28-0ubuntu0.16.04.2 [6,575 kB]
+Get:3 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-client-5.7 amd64 5.7.28-0ubuntu0.16.04.2 [1,476 kB]
+Get:4 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-server-core-5.7 amd64 5.7.28-0ubuntu0.16.04.2 [7,091 kB]
+Get:5 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libevent-core-2.0-5 amd64 2.0.21-stable-2ubuntu0.16.04.1 [70.6 kB]
+Get:6 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-server-5.7 amd64 5.7.28-0ubuntu0.16.04.2 [2,420 kB]
+Get:7 http://archive.ubuntu.com/ubuntu xenial/main amd64 libhtml-template-perl all 2.95-2 [60.4 kB]
+Get:8 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-client all 5.7.28-0ubuntu0.16.04.2 [10.0 kB]
+Get:9 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-server all 5.7.28-0ubuntu0.16.04.2 [10.2 kB]
+Fetched 17.7 MB in 8s (2,105 kB/s)                                             
+Preconfiguring packages ...
+Selecting previously unselected package libaio1:amd64.
+(Reading database ... 391511 files and directories currently installed.)
+Preparing to unpack .../libaio1_0.3.110-2_amd64.deb ...
+Unpacking libaio1:amd64 (0.3.110-2) ...
+Selecting previously unselected package mysql-client-core-5.7.
+Preparing to unpack .../mysql-client-core-5.7_5.7.28-0ubuntu0.16.04.2_amd64.deb ...
+Unpacking mysql-client-core-5.7 (5.7.28-0ubuntu0.16.04.2) ...
+Selecting previously unselected package mysql-client-5.7.
+Preparing to unpack .../mysql-client-5.7_5.7.28-0ubuntu0.16.04.2_amd64.deb ...
+Unpacking mysql-client-5.7 (5.7.28-0ubuntu0.16.04.2) ...
+Selecting previously unselected package mysql-server-core-5.7.
+Preparing to unpack .../mysql-server-core-5.7_5.7.28-0ubuntu0.16.04.2_amd64.deb ...
+Unpacking mysql-server-core-5.7 (5.7.28-0ubuntu0.16.04.2) ...
+Selecting previously unselected package libevent-core-2.0-5:amd64.
+Preparing to unpack .../libevent-core-2.0-5_2.0.21-stable-2ubuntu0.16.04.1_amd64.deb ...
+Unpacking libevent-core-2.0-5:amd64 (2.0.21-stable-2ubuntu0.16.04.1) ...
+Selecting previously unselected package mysql-server-5.7.
+Preparing to unpack .../mysql-server-5.7_5.7.28-0ubuntu0.16.04.2_amd64.deb ...
+Unpacking mysql-server-5.7 (5.7.28-0ubuntu0.16.04.2) ...
+Selecting previously unselected package libhtml-template-perl.
+Preparing to unpack .../libhtml-template-perl_2.95-2_all.deb ...
+Unpacking libhtml-template-perl (2.95-2) ...
+Selecting previously unselected package mysql-client.
+Preparing to unpack .../mysql-client_5.7.28-0ubuntu0.16.04.2_all.deb ...
+Unpacking mysql-client (5.7.28-0ubuntu0.16.04.2) ...
+Selecting previously unselected package mysql-server.
+Preparing to unpack .../mysql-server_5.7.28-0ubuntu0.16.04.2_all.deb ...
+Unpacking mysql-server (5.7.28-0ubuntu0.16.04.2) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+/sbin/ldconfig.real: /usr/local/cuda-10.0/targets/x86_64-linux/lib/libcudnn.so.7 is not a symbolic link
+
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for ureadahead (0.100.0-19.1) ...
+ureadahead will be reprofiled on next reboot
+Processing triggers for systemd (229-4ubuntu21.22) ...
+Setting up libaio1:amd64 (0.3.110-2) ...
+Setting up mysql-client-core-5.7 (5.7.28-0ubuntu0.16.04.2) ...
+Setting up mysql-client-5.7 (5.7.28-0ubuntu0.16.04.2) ...
+Setting up mysql-server-core-5.7 (5.7.28-0ubuntu0.16.04.2) ...
+Setting up libevent-core-2.0-5:amd64 (2.0.21-stable-2ubuntu0.16.04.1) ...
+Setting up mysql-server-5.7 (5.7.28-0ubuntu0.16.04.2) ...
+update-alternatives: using /etc/mysql/mysql.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Renaming removed key_buffer and myisam-recover options (if present)
+Setting up libhtml-template-perl (2.95-2) ...
+Setting up mysql-client (5.7.28-0ubuntu0.16.04.2) ...
+Setting up mysql-server (5.7.28-0ubuntu0.16.04.2) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+/sbin/ldconfig.real: /usr/local/cuda-10.0/targets/x86_64-linux/lib/libcudnn.so.7 is not a symbolic link
+
+Processing triggers for ureadahead (0.100.0-19.1) ...
+Processing triggers for systemd (229-4ubuntu21.22) ...
+
+
+labkubota@labkubota-432:~$ pip3 install mysql-connector-python
+Collecting mysql-connector-python
+  Downloading https://files.pythonhosted.org/packages/36/f4/615d283e22b7a985c22cfa54923321fd77feb72344c2dffc05fe3c6edc67/mysql_connector_python-8.0.18-cp35-cp35m-manylinux1_x86_64.whl (16.1MB)
+    100% |████████████████████████████████| 16.1MB 121kB/s 
+Collecting protobuf>=3.0.0 (from mysql-connector-python)
+  Downloading https://files.pythonhosted.org/packages/dd/45/65a730c50262d6bfc573807a15ad40d3e9e401af7af70ad1c689a99918ca/protobuf-3.11.2-cp35-cp35m-manylinux1_x86_64.whl (1.3MB)
+    100% |████████████████████████████████| 1.3MB 848kB/s 
+Collecting setuptools (from protobuf>=3.0.0->mysql-connector-python)
+  Downloading https://files.pythonhosted.org/packages/f9/d3/955738b20d3832dfa3cd3d9b07e29a8162edb480bf988332f5e6e48ca444/setuptools-44.0.0-py2.py3-none-any.whl (583kB)
+    100% |████████████████████████████████| 583kB 1.3MB/s 
+Collecting six>=1.9 (from protobuf>=3.0.0->mysql-connector-python)
+  Using cached https://files.pythonhosted.org/packages/65/26/32b8464df2a97e6dd1b656ed26b2c194606c16fe163c695a992b36c11cdf/six-1.13.0-py2.py3-none-any.whl
+Installing collected packages: setuptools, six, protobuf, mysql-connector-python
+Successfully installed mysql-connector-python-8.0.18 protobuf-3.11.2 setuptools-44.0.0 six-1.13.0
+You are using pip version 8.1.1, however version 19.3.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+
+
+labkubota@labkubota-432:~$ mysql -u root -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 4
+Server version: 5.7.28-0ubuntu0.16.04.2 (Ubuntu)
+
+Copyright (c) 2000, 2019, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> ^DBye
+
+
+
+labkubota@labkubota-432:~$ python3
+Python 3.5.2 (default, Oct  8 2019, 13:06:37) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import mysql.connector
+>>> 
+
+
+labkubota@labkubota-432:~$ mysql -u root -p
+Enter password: 
+ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+labkubota@labkubota-432:~$ mysql -u root -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 6
+Server version: 5.7.28-0ubuntu0.16.04.2 (Ubuntu)
+
+Copyright (c) 2000, 2019, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> create database;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+mysql> create database data_exchange;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| data_exchange      |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.00 sec)
+
+mysql> create user ext_user;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> select user;
+ERROR 1054 (42S22): Unknown column 'user' in 'field list'
+mysql> select user, host from mysql.user;
++------------------+-----------+
+| user             | host      |
++------------------+-----------+
+| ext_user         | %         |
+| debian-sys-maint | localhost |
+| mysql.session    | localhost |
+| mysql.sys        | localhost |
+| root             | localhost |
++------------------+-----------+
+5 rows in set (0.00 sec)
+
+mysql> grant all privileges on *.* to ext_user@'%' identified by 'mobimobi' with grant option;
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| data_exchange      |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.00 sec)
+
+mysql> select user, host from mysql.user;
++------------------+-----------+
+| user             | host      |
++------------------+-----------+
+| ext_user         | %         |
+| debian-sys-maint | localhost |
+| mysql.session    | localhost |
+| mysql.sys        | localhost |
+| root             | localhost |
++------------------+-----------+
+5 rows in set (0.00 sec)
+
+mysql> ^DBye
+
+
+
+
+labkubota@labkubota-432:~$ mysql --version
+mysql  Ver 14.14 Distrib 5.7.28, for Linux (x86_64) using  EditLine wrapper
+labkubota@labkubota-432:~$ sudo mysql_secure_installation
+[sudo] password for labkubota: 
+
+Securing the MySQL server deployment.
+
+Enter password for user root: 
+
+VALIDATE PASSWORD PLUGIN can be used to test passwords
+and improve security. It checks the strength of password
+and allows the users to set only those passwords which are
+secure enough. Would you like to setup VALIDATE PASSWORD plugin?
+
+Press y|Y for Yes, any other key for No: y
+
+There are three levels of password validation policy:
+
+LOW    Length >= 8
+MEDIUM Length >= 8, numeric, mixed case, and special characters
+STRONG Length >= 8, numeric, mixed case, special characters and dictionary                  file
+
+Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 0
+Using existing password for root.
+
+Estimated strength of the password: 50 
+Change the password for root ? ((Press y|Y for Yes, any other key for No) : k
+
+ ... skipping.
+By default, a MySQL installation has an anonymous user,
+allowing anyone to log into MySQL without having to have
+a user account created for them. This is intended only for
+testing, and to make the installation go a bit smoother.
+You should remove them before moving into a production
+environment.
+
+Remove anonymous users? (Press y|Y for Yes, any other key for No) : y
+Success.
+
+
+Normally, root should only be allowed to connect from
+'localhost'. This ensures that someone cannot guess at
+the root password from the network.
+
+Disallow root login remotely? (Press y|Y for Yes, any other key for No) : y
+Success.
+
+By default, MySQL comes with a database named 'test' that
+anyone can access. This is also intended only for testing,
+and should be removed before moving into a production
+environment.
+
+
+Remove test database and access to it? (Press y|Y for Yes, any other key for No) : y
+ - Dropping test database...
+Success.
+
+ - Removing privileges on test database...
+Success.
+
+Reloading the privilege tables will ensure that all changes
+made so far will take effect immediately.
+
+Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y
+Success.
+
+All done! 
+
+
+
+
+
+labkubota@labkubota-432:~$ mysql -u ext_user -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 9
+Server version: 5.7.28-0ubuntu0.16.04.2 (Ubuntu)
+
+Copyright (c) 2000, 2019, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| data_exchange      |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.00 sec)
+
+mysql> use data_exchange;
+Database changed
+mysql> show tablas;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tablas' at line 1
+mysql> show tables;
+Empty set (0.00 sec)
+
+mysql> 
+
+
+
+
+
+kubotalab@kubotalab-123:~$ sudo gedit /etc/mysql/mysql.conf.d/mysqld.cnf 
+
+
+
+
+
+(gedit:20786): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:20786): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:20786): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:20786): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+kubotalab@kubotalab-123:~$ 
+
+
+
+
+
+
+sudo netstat -tlpn
+[sudo] password for kubotalab: 
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 127.0.1.1:53            0.0.0.0:*               LISTEN      12968/dnsmasq   
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      15026/cupsd     
+tcp        0      0 127.0.0.1:5984          0.0.0.0:*               LISTEN      1515/beam.smp   
+tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      19617/mysqld    
+tcp        0      0 127.0.0.1:6379          0.0.0.0:*               LISTEN      1197/redis-server 1
+tcp6       0      0 ::1:631                 :::*                    LISTEN      15026/cupsd     
+kubotalab@kubotalab-123:~$ service mysqld restart
+Failed to restart mysqld.service: Unit mysqld.service not found.
+
+
+
+
+
+
+
+labkubota@labkubota-432:~$sudo netstat -ant
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:3306            0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.1.1:53            0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN     
+tcp6       0      0 ::1:631                 :::*                    LISTEN    

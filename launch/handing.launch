@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="hsr_handing" name="Tracking_Pub" type="Tracking_Pub.py"/>
+    <node pkg="hsr_handing" name="gripper"      type="gripper2.py" output="screen"/>
+    <node pkg="hsr_handing" name="Handing"      type="Handing.py" output="screen"/>
+    <node pkg="hsr_handing" name="input"        type="input.py" output="screen"/>
+    <node pkg="hsr_handing" name="fuzzy"        type="fuzzy.py" output="screen"/>
+    
+</launch>

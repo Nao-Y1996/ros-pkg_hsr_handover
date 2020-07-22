@@ -1,0 +1,30 @@
+rt
+※ 通信を行うPCはすべて同じネットワークにつなぐこと
+※ 学校のネットワークを使わないこと
+※ もしつながらなくてもただ調子が悪いだけの時があるので繰り返し実行すると繋がる時がある
+
+
+
+インフィニティ側での操作
+
+・terminalを2つ起動する（１つはopenpose、もう１つはmysqlへの送信用
+
+・openposeの動かし方
+$ cd openpose
+$ ./examples/user_code/pose.bin --camera=0
+camera=0は基本的にノートパソコンのついてるやつ
+camera=1だとUSBカメラになる。ただし、PC起動時にすでにUSBカメラが接続されていれば =0で認識される(ことも)
+
+・mysqlへデータの送信のやり方
+$ cd work/mysql
+$ python3 rt-pose.py xxx.xxx.xxx.xxx ※ 送信先のIPアドレスを指定 
+
+
+
+MySQLサーバ側での操作
+
+・teminalを起動する
+$ cd xxxxx			※ rt-pose.pyが入っているフォルダ
+$ python3 rt-pose.py		※ python3系で実行すること
+
+・rt-pose.pyでcsvファイルが作成されるので、読み取ってデータを使う
